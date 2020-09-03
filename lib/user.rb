@@ -1,9 +1,9 @@
 class User 
   
   attr_accessor :first_name, :last_name
-  @@KNOWLEDGE = []
+  @knowledge = []
   
   def learn(string)
-    @@KNOWLEDGE << string 
+   @knowledge << string 
   end 
 end 
